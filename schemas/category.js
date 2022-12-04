@@ -1,17 +1,22 @@
 export default {
-  name: 'category',
-  title: 'Category',
-  type: 'document',
+  name: "category",
+  title: "Ангилал",
+  type: "document",
   fields: [
     {
-      name: 'title',
-      title: 'Title',
-      type: 'string',
+      name: "title",
+      title: "Нэр",
+      type: "string",
     },
     {
-      name: 'description',
-      title: 'Description',
-      type: 'text',
+      name: "description",
+      title: "Тайлбар",
+      type: "text",
+    },
+    {
+      name: "color",
+      title: "Өнгө",
+      type: "string",
     },
   ],
-}
+};
